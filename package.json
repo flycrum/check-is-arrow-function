@@ -1,6 +1,6 @@
 {
   "name": "check-is-arrow-function",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Checks whether a function is an arrow function.",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
