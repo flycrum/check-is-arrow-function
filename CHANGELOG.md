@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 0.0.2 (2019-12-15)
 
+* initial release (not production tested yet)
+* single `checkIsArrowFunction` function available
+* 40+ tests
 
 ### Tests
 

@@ -5,9 +5,9 @@
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/YOUR_GITHUB_USER_NAME/check-is-arrow-function",
+  "repository": "https://github.com/crummm/check-is-arrow-function",
   "license": "MIT",
-  "keywords": [],
+  "keywords": ["JavaScript", "arrow function", "TypeScript", "parser"],
   "scripts": {
     "describe": "npm-scripts-info",
     "start": "run-s watch",
