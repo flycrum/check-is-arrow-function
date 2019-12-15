@@ -1,7 +1,6 @@
 // @ts-nocheck
 // note: ⬆ disable TypeScript types for these tests because it needlessly complicates and clutters them hurting readability, dynamic test name matching, etc
 
-import test from 'ava';
 import { checkIsArrowFunction } from './checkIsArrowFunction';
 
 /* tslint:disable */
@@ -91,7 +90,7 @@ const tests: Array<[any, boolean]> = [
 /* tslint:enable */
 
 tests.forEach((value, index: number) => {
-    test(`checkIsArrowFunction index_${index} - ${value[0] && value[0].toString()}`, t => {
-        t.is(checkIsArrowFunction(value[0]), value[1]);
+    test(`checkIsArrowFunction index_${index} - ${value[0] && value[0].toString()}`, () => {
+        expect(checkIsArrowFunction(value[0])).toBe(value[1]);
     });
 });
