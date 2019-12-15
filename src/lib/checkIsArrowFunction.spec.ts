@@ -89,8 +89,10 @@ const tests: Array<[any, boolean]> = [
 
 /* tslint:enable */
 
-tests.forEach((value, index: number) => {
-    test(`checkIsArrowFunction index_${index} - ${value[0] && value[0].toString()}`, () => {
-        expect(checkIsArrowFunction(value[0])).toBe(value[1]);
-    });
+describe('checkIsArrowFunction', () => {
+  tests.forEach((value, index: number) => {
+      test(`dynamic test index ${index}: ${value[0] && value[0].toString()}`, () => {
+          expect(checkIsArrowFunction(value[0])).toBe(value[1]);
+      });
+  });
 });
