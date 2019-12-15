@@ -1,6 +1,16 @@
 # ➡ check-is-arrow-function
 
-Checks whether a function is an arrow function using a very targeted and streamlined, yet simple, parser.
+Checks whether a function is an arrow function using a very targeted and streamlined, yet simple, parser. Written with TypeScript.
+
+## Install
+
+```shell script
+yarn add check-is-arrow-function
+```
+
+```shell script
+npm i check-is-arrow-function
+```
 
 ## Why?
 
@@ -15,6 +25,8 @@ A parser is necessary to reliably catch all the weird syntax and cases that exis
 This library throws **40+** tests at `checkIsArrowFunction` to catch everything from super simple to real odd cases.
 
 ## Case examples
+
+Here are some cases that check-is-arrow tests against:
 
 ```js
 checkIsArrowFunction(() => {}); // true
