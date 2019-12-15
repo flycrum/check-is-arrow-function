@@ -5,7 +5,4 @@ module.exports = {
     },
     testRegex: '(/build/.*|(\\.|/)(test|spec))\\.tsx?$',
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-    reporters: [
-        ['jest-silent-reporter', {useDots: true}],
-    ],
 };
